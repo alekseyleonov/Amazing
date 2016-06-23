@@ -1,3 +1,126 @@
 body{
   font-family: 'Fira Sans', sans-serif;
+  font-size: 30px;
+  line-height: 1.5;
+
+  background-color: #83d3dc;
+}
+
+h1{
+  font-size: 24px;
+  font-family: "FiraSans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+h2{
+  font-size: 18px;
+  font-family: "FiraSans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+main{
+  width: 1600px;
+}
+
+.introduce{
+  min-height: 900px;
+  background-image: url(../img/hero_image.jpg);
+  background-repeat: no-repeat;
+}
+
+.logo{
+  display: table-cell;
+  vertical-align: middle;
+
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 210px;
+  top: 88px;
+  width: 80px;
+  height: 80px;
+
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menu {
+  display: block;
+  position: absolute;
+  left: 1337.688px;
+  top: 100px;
+
+  font-size: 12px;
+  color: rgb(20, 20, 20);
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menu_decor{
+  width: 27px;
+  height: 5px;
+  background-color: black;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4px;
+}
+
+.introduce span{
+  display: block;
+  padding-top: 348.474px;
+  padding-left: 208.844px;
+  font-size: 72px;
+  line-height: 1.2;
+}
+
+.introduce p{
+  padding-left: 208.844px;
+
+  font-size: 30px;
+  line-height: 1.5;
+
+  width: 580px;
+}
+
+.hero_represent_item{
+  display: flex;
+}
+
+.hero_represent{
+  min-height: 500px;
+  width: 800px;
+}
+
+.hero_photo{
+  background-color: #b73e44;
+  background-image: url(../img/hero_photo.jpg);
+  background-repeat: no-repeat;
+}
+
+.hero_text{
+  font-size: 36px;
+  color: rgb(102, 102, 102);
+  line-height: 1.2;
+
+  background-color: #f3f1ef;
+}
+
+.hero_text h1{
+  margin-top: 100px;
+  margin-left: 60px;
+  font-size: 24px;
+}
+
+.hero_text p{
+  width: 530px;
+  margin-left:  60px;
 }
