@@ -18,6 +18,8 @@ h2{
   font-size: 18px;
   font-family: "FiraSans", sans-serif;
   font-weight: bold;
+  color: rgb(249, 249, 249);
+
   text-transform: uppercase;
   line-height: 1.2;
 }
@@ -28,18 +30,13 @@ h2{
   margin-right: auto;
 }
 
-/*header{
-  position: relative;
-  *max-width: 1180px;
-  margin-left: auto;
-  margin-right: auto;
-}*/
-
 header{
   position: relative;
 }
 
 .introduce{
+  position: relative;
+
   background-image: url(../img/hero_image.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -105,6 +102,15 @@ header{
   line-height: 1.5;
 
   width: 580px;
+}
+
+.slanted {
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+
+  border-left: solid 1124px transparent;
+  border-bottom: solid 900px rgba(66, 183, 200, 0.3);
 }
 
 .landing_block{
@@ -283,4 +289,190 @@ header{
   width: 75%;
 
   background-image: url(../img/photo_dj.jpg);
+}
+
+.music_follow_item{
+  min-height: 515px;
+}
+
+.spotify{
+  background-color: #2ebd59;
+  width: 50%;
+}
+
+.spotify h1{
+  color: rgb(249, 249, 249);
+
+  margin-left: 26.25%;
+  margin-top: 140px;
+
+  text-transform: uppercase;
+}
+
+.spotify p{
+  font-size: 36px;
+  color: rgb(249, 249, 249);
+
+  margin-left: 26.25%;
+
+
+  width: 70%;
+}
+
+.spotify a{
+  color: rgb(249, 249, 249);
+
+  text-decoration: none;
+
+  padding: 20px;
+
+  border: solid 2px rgb(249, 249, 249);
+  border-radius: 40px;
+
+  margin-left: 26.25%;
+}
+
+.itunes{
+  background-color: #282b2f;
+  width: 50%
+}
+
+.itunes h1{
+  color: rgb(249, 249, 249);
+
+  margin-left: 7.5%;
+  margin-top: 140px;
+
+  text-transform: uppercase;
+}
+
+.itunes p{
+  font-size: 36px;
+  color: rgb(249, 249, 249);
+  margin-left: 7.5%;
+
+  width: 60%;
+}
+
+.itunes a{
+  color: rgb(249, 249, 249);
+
+  text-decoration: none;
+
+  padding: 20px;
+
+  border: solid 2px rgb(249, 249, 249);
+  border-radius: 40px;
+
+  margin-left: 7.5%;
+}
+
+.footer_container{
+  position: relative;
+  display: flex;
+
+  min-height: 605px;
+
+  background-color: #212227;
+
+  color: rgb(145, 145, 145);
+  font-size: 14px;
+}
+
+.about_item{
+  width: 38.13%;
+}
+
+.about_item h2{
+  margin-left: 34.43%;
+  margin-right: 19.67%;
+}
+
+.about_item p{
+  margin-left: 34.43%;
+  margin-right: 18.67%;
+
+  hyphens: auto;
+}
+
+.contacts_item{
+  width: 17.5%;
+}
+
+.social{
+  margin-top: 80px;
+}
+
+.social ul{
+  list-style: none;
+}
+
+.social a{
+  color: rgb(145, 145, 145);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.subscribe_form{
+  position: relative;
+
+  width: 43.13%;
+}
+
+.subscribe_form h2,
+.contacts_item h2,
+.about_item h2{
+  margin-top: 100px;
+}
+
+.subscribe_form p{
+  width: 71%;
+
+  hyphens: auto;
+}
+
+.subscribe_form input{
+  width: 65.57%;
+
+  font-size: 14px;
+  color: rgb(145, 145, 145);
+  line-height: 1.5px;
+  text-transform: uppercase;
+
+  background: #4d4e52;
+  border: none;
+
+  padding: 20px;
+}
+
+.subscribe_form button{
+  position: absolute;
+
+  top: 238px;
+  right: 30%;
+}
+
+.sponsor{
+  position: absolute;
+  bottom: 125px;
+  right: 25.63%;
+}
+
+.sponsor_logo{
+  display: inline-block;
+
+  border: solid 1px rgb(249, 249, 249);
+
+  height: 80px;
+  width: 80px;
+
+  margin-right: 20px;
+
+  background-image: url(../img/sponsor_logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logo_03{
+  margin-right: 0;
 }

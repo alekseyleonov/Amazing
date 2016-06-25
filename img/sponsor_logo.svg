@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 12px;
+        fill: #f2f7fb;
+        font-family: Lato;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <text id="LOGO" class="cls-1" x="-0.043" y="8.873">LOGO</text>
+</svg>
