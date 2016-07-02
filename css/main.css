@@ -369,10 +369,11 @@ strong{
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 0.2em;
+  font-weight: bold;
 
   text-decoration: none;
 
-  padding: 18px 25px 15px 25px;
+  padding: 18px 22px 15px 25px;
 
   border: solid 2px rgb(249, 249, 249);
   border-radius: 40px;
@@ -414,10 +415,11 @@ strong{
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 0.2em;
+  font-weight: bold;
 
   text-decoration: none;
 
-  padding: 18px 25px 15px 25px;
+  padding: 18px 22px 15px 25px;
 
   border: solid 2px rgb(249, 249, 249);
   border-radius: 40px;
