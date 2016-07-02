@@ -264,6 +264,8 @@ strong{
   width: 33.33%;
 
   background-color: #212227;
+
+  overflow: auto;
 }
 
 .music h1{
@@ -271,25 +273,29 @@ strong{
   font-weight: bold;
   text-transform: uppercase;
 
-  padding-top: 140px;
-  margin-top: 0px;
-  margin-left: 15%;
+  margin-top: 135px;
+  margin-bottom: 0;
+  margin-left: 14.1%;
 }
 
 .music span{
+  display: block;
+
   color: rgb(46, 189, 89);
   text-transform: uppercase;
   font-size: 18px;
 
-  margin-left: 15%;
+  margin-left: 14.5%;
+  margin-top: 6px;
 }
 
 .music p{
   color: rgb(249, 249, 249);
-  line-height: 1.5;
   font-size: 14px;
 
-  margin-left: 15%;
+  margin-left: 14.5%;
+  margin-top: 30px;
+  margin-bottom: 44px;
 }
 
 .music a{
@@ -304,14 +310,18 @@ strong{
   border: solid 2px rgb(46, 189, 89);
   border-radius: 30px;
 
-  padding: 15px;
-  margin-left: 15%;
+  padding: 15px 40px 12px 15px;
+  margin-left: 14.5%;
 }
 
 .click_play_item{
-  display: inline-block;
+  position: absolute;
+
   border: solid 8px transparent;
   border-left: solid 15px rgb(46, 189, 89);
+
+  right: 11px;
+  top: 16px;
 }
 
 .dj_photo{
@@ -334,7 +344,8 @@ strong{
   color: rgb(249, 249, 249);
 
   margin-left: 26.25%;
-  margin-top: 140px;
+  margin-top: 135px;
+  margin-bottom: 30px;
 
   text-transform: uppercase;
 }
@@ -342,19 +353,26 @@ strong{
 .spotify p{
   font-size: 36px;
   color: rgb(249, 249, 249);
+  line-height: 1.2;
+  letter-spacing: -0.028em;
+  font-weight: lighter;
 
   margin-left: 26.25%;
-
+  margin-top: 0px;
+  margin-bottom: 38px;
 
   width: 70%;
 }
 
 .spotify a{
   color: rgb(249, 249, 249);
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 
   text-decoration: none;
 
-  padding: 20px;
+  padding: 18px 25px 15px 25px;
 
   border: solid 2px rgb(249, 249, 249);
   border-radius: 40px;
@@ -371,7 +389,8 @@ strong{
   color: rgb(249, 249, 249);
 
   margin-left: 7.5%;
-  margin-top: 140px;
+  margin-top: 135px;
+  margin-bottom: 30px;
 
   text-transform: uppercase;
 }
@@ -379,17 +398,26 @@ strong{
 .itunes p{
   font-size: 36px;
   color: rgb(249, 249, 249);
+  line-height: 1.2;
+  letter-spacing: -0.028em;
+  font-weight: lighter;
+
+  margin-top: 0px;
   margin-left: 7.5%;
+  margin-bottom: 38px;
 
   width: 60%;
 }
 
 .itunes a{
   color: rgb(249, 249, 249);
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 
   text-decoration: none;
 
-  padding: 20px;
+  padding: 18px 25px 15px 25px;
 
   border: solid 2px rgb(249, 249, 249);
   border-radius: 40px;
