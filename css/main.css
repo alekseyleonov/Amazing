@@ -321,7 +321,7 @@ strong{
   border-left: solid 15px rgb(46, 189, 89);
 
   right: 11px;
-  top: 16px;
+  top: 15px;
 }
 
 .dj_photo{
@@ -346,8 +346,6 @@ strong{
   margin-left: 26.25%;
   margin-top: 135px;
   margin-bottom: 30px;
-
-  text-transform: uppercase;
 }
 
 .spotify p{
@@ -392,8 +390,6 @@ strong{
   margin-left: 7.5%;
   margin-top: 135px;
   margin-bottom: 30px;
-
-  text-transform: uppercase;
 }
 
 .itunes p{
@@ -408,6 +404,12 @@ strong{
   margin-bottom: 38px;
 
   width: 60%;
+}
+
+@media screen and (max-device-width: 1366px) {
+  .itunes p{
+    width: 50%
+  }
 }
 
 .itunes a{
@@ -441,6 +443,7 @@ strong{
 
 .about_item{
   width: 38.13%;
+  margin-top: 82px;
 }
 
 .about_item h2{
@@ -451,26 +454,115 @@ strong{
 .about_item p{
   margin-left: 34.43%;
   margin-right: 18.67%;
+  margin-top: 27px;
+
+  font-weight: lighter;
+
+  width: 46%;
 
   hyphens: auto;
+}
+
+.about_item p:nth-child(3){
+  margin-top: 21px;
+
+text-transform: uppercase;
 }
 
 .contacts_item{
   width: 17.5%;
 }
 
-.social{
+address{
+  font-style: normal;
+  margin-top: 97px;
+  margin-bottom: 70px;
+}
+
+address h2{
+  margin-bottom: 24px;
+}
+
+address p:nth-child(2){
+  margin-bottom: 20px;
+}
+
+.email{
+  text-decoration: none;
+  color: inherit;
+}
+
+/*.social{
   margin-top: 80px;
+}*/
+
+.social h2{
+  margin-bottom: 23px;
 }
 
 .social ul{
   list-style: none;
+  padding-left: 0;
+}
+
+.social li{
+  margin-bottom: 3px;
+  /*margin-left: 30px;*/
 }
 
 .social a{
   color: rgb(145, 145, 145);
   text-decoration: none;
   text-transform: uppercase;
+  vertical-align: sub;
+}
+
+.social_facebook::before{
+  content: '';
+  background-image: url(../img/icon_spritesheet.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-position: -5px -5px;
+  margin-right: 30px;
+  vertical-align: sub;
+}
+
+.social_twitter::before{
+  content: '';
+  background-image: url(../img/icon_spritesheet.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-position: -5px -31px;
+  margin-right: 30px;
+  vertical-align: sub;
+}
+
+.social_instagram::before{
+  content: '';
+  background-image: url(../img/icon_spritesheet.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-position: -5px -55px;
+  margin-right: 30px;
+  vertical-align: sub;
+}
+
+.social_spotify::before{
+  content: '';
+  background-image: url(../img/icon_spritesheet.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-position: -5px -79px;
+  margin-right: 30px;
+  vertical-align: sub;
 }
 
 .subscribe_form{
@@ -479,11 +571,11 @@ strong{
   width: 43.13%;
 }
 
-.subscribe_form h2,
+/*.subscribe_form h2,
 .contacts_item h2,
 .about_item h2{
-  margin-top: 100px;
-}
+  margin-top: 97px;
+}*/
 
 .subscribe_form p{
   width: 71%;
