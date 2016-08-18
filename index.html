@@ -6,6 +6,7 @@
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700&subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="css\normalize.css">
   <link rel="stylesheet" href="css\main.css">
+  <!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
 </head>
 <body>
   <div class="container">
@@ -150,10 +151,10 @@
           <div class="social">
             <h2>Follow me on</h2>
             <ul>
-              <li><a href="#" class="social_facebook">Facebook</a></li>
-              <li><a href="#" class="social_twitter">Twitter</a></li>
-              <li><a href="#" class="social_instagram">Instagram</a></li>
-              <li><a href="#" class="social_spotify">Spotify</a></li>
+              <li><a href="#" class="social__item social_facebook">Facebook</a></li>
+              <li><a href="#" class="social__item social_twitter">Twitter</a></li>
+              <li><a href="#" class="social__item social_instagram">Instagram</a></li>
+              <li><a href="#" class="social__item social_spotify">Spotify</a></li>
             </ul>
           </div>
         </div>
@@ -166,19 +167,20 @@
             vel arcu quis dictum. Vestibulum viverra
             commodo nunc eu pellentesque.
           </p>
-          <input type="text" name="e-mail" value="" placeholder="Enter your email adress"
->
-          <button type="button" name="submit"></button>
+          <label>
+            <input type="text" name="e-mail" value="" placeholder="Enter your email adress">
+            <button type="button" name="submit"></button>
+          </label>
+          <div class="sponsor">
+            <h2>Sponsor</h2>
+            <div class="sponsor_logo logo_01">
+            </div>
+            <div class="sponsor_logo logo_02">
+            </div>
+            <div class="sponsor_logo logo_03">
+            </div>
+          </div>
         </form>
-        <div class="sponsor">
-          <h2>Sponsor</h2>
-          <div class="sponsor_logo logo_01">
-          </div>
-          <div class="sponsor_logo logo_02">
-          </div>
-          <div class="sponsor_logo logo_03">
-          </div>
-        </div>
       </div>
     </footer>
   </div>
