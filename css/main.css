@@ -206,7 +206,7 @@ strong{
 
 .photo_05{
   background-image: url(../img/photo_05.jpg);
-  background-position: сcenter;
+  background-position: сenter;
 }
 
 .instagramm{
@@ -477,14 +477,17 @@ text-transform: uppercase;
   width: 17.5%;
 }
 
+.contacts_item h2{
+  margin: 97px 0px 24px;
+}
+
 address{
   font-style: normal;
-  margin-top: 97px;
   margin-bottom: 70px;
 }
 
-address h2{
-  margin-bottom: 24px;
+address p{
+  margin-bottom: 20px;
 }
 
 address p:nth-child(2){
@@ -571,7 +574,7 @@ address p:nth-child(2){
   hyphens: auto;
 }
 
-.subscribe_form label{
+.subscribe_form .e-mail-field{
   position: relative;
   margin: 0 0 0 20px;
   display: block;
